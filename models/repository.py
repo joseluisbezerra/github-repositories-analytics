@@ -5,12 +5,15 @@ class Repository():
         self._name = name
         self._stars = stars
 
+    @property
     def id(self) -> int:
         return self._id
 
+    @property
     def name(self) -> str:
         return self._name
 
+    @property
     def stars(self) -> int:
         return self._stars
 
