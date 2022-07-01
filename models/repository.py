@@ -19,3 +19,10 @@ class Repository():
 
     def __str__(self) -> str:
         return f'id: {self._id} name: {self._name} stars: {self._stars}'
+
+    def as_dict(self) -> dict:
+        return {
+            'id': self._id,
+            'name': self._name,
+            'stars': self._stars
+        }
