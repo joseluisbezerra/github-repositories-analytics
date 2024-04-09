@@ -1,17 +1,17 @@
 # Github Repositories Analytics
-Aplicação que interage com a API de repositórios do GitHub 
+Application that interacts with the GitHub repository API
 
-# Instalação
-1. Crie um ambiente virtual:
+# Installation
+1. Create a virtual environment:
 ```
 python -m venv venv
 ```
-2. Ative o ambiente virtual;
-3. Instale as dependências:
+2. Activate the virtual environment;
+3. Install dependencies:
 ```
 (venv) pip install -r requirements.txt
 ```
-4. Teste a aplicação:
+4. Test the application:
 ```
 (venv) python main.py <username>
 ```
